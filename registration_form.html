@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>MY first web page</title>
+</head>
+<body>
+	<h1>REGISTRATION FORM</h1>
+	<div id="reg-form">
+		<form>
+			<label for="first-name">First-name	</label>
+			<input type="text" name="first-name" placeholder="vinay" required>
+			<label for="last-name">Last-name	</label>
+			<input type="text" name="last-name" placeholder="agarwal" required>
+			<div>
+				<label for="Gender-male">Male</label>
+				<input type="radio"name="Gender-choice" value="choice-1">
+				<label for="Gender-female">	Female</label>
+				<input type="radio"name="Gender-choice" value="choice-2">
+				<label for="Gender-other">	Other</label>
+				<input type="radio"name="Gender-choice" value="choice-3">
+			</div>
+			<div>
+				<label for="email-add">E-mail	</label>
+				<input type="email" name="email" placeholder="vinay@xyz.com" required>
+				<label for="password">Password	</label>
+				<input type="password" name="password" required>
+				<label> *YOUR PASSWORD MUST CONTAIN 1 ALPHABET AND 1 NUMBER</label>
+			</div>
+			<div>
+				<label for="Month">Month</label>
+				<select name="Month">
+					<option value="0" selected disabled>select</option>
+					<option value="jan">JANUARY</option>
+					<option value="feb">FEBRUARY</option>
+					<option value="march">MARCH</option>
+					<option value="april">APRIL</option>
+					<option value="may">MAY</option>
+					<option value="june">JUNE</option>
+					<option value="july">JULY</option>
+					<option value="aug">AUGUST</option>
+					<option value="sept">SEPTEMBER</option>
+					<option value="oct">OCTOBER</option>
+					<option value="nov">NOVEMBER</option>
+					<option value="dec">DECEMBER</option>
+				</select>
+			</div>
+			<label for="agree">I AGREE TO ALL THE CONDITIONS OF THE FORM: </label>	
+			<input type="checkbox" name="agree">
+			<button type="submit">Submit</button>
+		</form>
+	</div>
+</body>
+</html>
